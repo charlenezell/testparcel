@@ -3,6 +3,7 @@ import "babel-polyfill";
 import {sayHello} from "./common";
 import img from "./a.png";
 import fs from "fs";
+// console.log(indexCSS);
 let w=fs.readFileSync(__dirname+"/index.css","utf8");
 console.log(w);
 // console.log(indexCSS);
@@ -20,7 +21,7 @@ setTimeout(()=>{
     });
 },1000);
 
-setTimeout(() => {
+setTimeout(async function() {
     let comB=await import("./async/componentb.js");
     comB.init();
 }, 2000);

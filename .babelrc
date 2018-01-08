@@ -1,3 +1,11 @@
 {
-    "preset":["env","react"]
+    "presets":["react",["env",{
+        "modules":false,
+        "loose":true,
+        "useBuiltIns":true
+    }]],
+    "plugins": [
+        "transform-decorators-legacy",
+        "syntax-dynamic-import"
+      ]
 }
