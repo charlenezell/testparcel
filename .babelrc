@@ -1,11 +1,13 @@
 {
     "presets":["react",["env",{
-        "modules":false,
-        "loose":true,
-        "useBuiltIns":true
+        "modules": false,
+        "useBuiltIns": true,
+        "loose": true
     }]],
     "plugins": [
         "transform-decorators-legacy",
-        "syntax-dynamic-import"
+        "syntax-dynamic-import",
+        "transform-class-properties",
+        "transform-object-rest-spread"
       ]
 }
