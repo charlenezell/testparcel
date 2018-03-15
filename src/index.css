@@ -1,6 +1,7 @@
 @import "./top.css";
 @import "./foot.scss";
 body {
+    background: black;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
 }

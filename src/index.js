@@ -1,7 +1,7 @@
 // import indexCSS from  './index.css';
 import "babel-polyfill";
 import {sayHello} from "./common";
-import img from "./a.png";
+import img from "./images/a.png";
 import fs from "fs";
 // console.log(indexCSS);
 let w=fs.readFileSync(__dirname+"/index.css","utf8");

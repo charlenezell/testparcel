@@ -4,9 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build:test": "parcel build --public-url http://testhost.com",
-    "build": "parcel build --no-minify",
-    "start": "parcel index.html --port 8080"
+    "build:test": "parcel build index.html --public-url http://testhost.com",
+    "build": "parcel build index.html --no-minify",
+    "start": "parcel index.html --port 8080 --no-cache"
   },
   "dependencies": {
     "react": "^16.2.0",
@@ -22,6 +22,6 @@
     "node-sass": "^4.7.2",
     "parcel-bundler": "^1.4.1",
     "postcss-modules": "^1.1.0",
-    "posthtml-img-autosize": "^0.1.1"
+    "posthtml-img-autosize": "^0.1.2"
   }
 }
